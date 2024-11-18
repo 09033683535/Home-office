@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Analytics Page</title>
+  <link rel="stylesheet" href="analytics.css">
+</head>
+<body>
+  <header>
+    <h1>Analytics Dashboard</h1>
+  </header>
+
+  <main>
+    <section id="analytics-input">
+      <h2>Add Data Point</h2>
+      <input type="text" id="data-label" placeholder="Label (e.g., Task)" />
+      <input type="number" id="data-value" placeholder="Value (e.g., Hours)" />
+      <button id="add-data-btn">Add Data</button>
+    </section>
+
+    <section id="analytics-chart">
+      <h2>Bar Chart</h2>
+      <div id="chart-container"></div>
+    </section>
+  </main>
+
+  <script src="analytics.js"></script>
+</body>
+</html>
