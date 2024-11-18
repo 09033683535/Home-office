@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule Page</title>
+  <link rel="stylesheet" href="schedule.css">
+</head>
+<body>
+  <header>
+    <h1>Schedule Manager</h1>
+  </header>
+
+  <main>
+    <section id="schedule-form-section">
+      <h2>Add a New Event</h2>
+      <input type="text" id="event-title" placeholder="Event Title" />
+      <input type="date" id="event-date" />
+      <button id="add-event-btn">Add Event</button>
+    </section>
+
+    <section id="schedule-list-section">
+      <h2>Your Schedule</h2>
+      <ul id="schedule-list"></ul>
+    </section>
+  </main>
+
+  <script src="schedule.js"></script>
+</body>
+</html>
