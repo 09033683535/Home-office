@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Collaboration Page</title>
+  <link rel="stylesheet" href="collaboration.css">
+</head>
+<body>
+  <header>
+    <h1>Collaboration Hub</h1>
+  </header>
+
+  <main>
+    <section id="collaboration-section">
+      <div id="chat-area">
+        <h2>Chat</h2>
+        <div id="chat-messages"></div>
+        <div id="chat-input">
+          <input type="text" id="message-input" placeholder="Type your message here" />
+          <button id="send-message-btn">Send</button>
+        </div>
+      </div>
+
+      <div id="participants-area">
+        <h2>Participants</h2>
+        <ul id="participants-list"></ul>
+        <input type="text" id="participant-input" placeholder="Add participant name" />
+        <button id="add-participant-btn">Add Participant</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="collaboration.js"></script>
+</body>
+</html>
