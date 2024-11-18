@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Remote Worker Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Remote Worker Platform</h1>
+    <nav>
+      <ul>
+        <li><a href="Task_manager.html">Task Manager</a></li>
+        <li><a href="collaboration_hub.html">Collaboration</a></li>
+        <li><a href="schedule.html">Scheduling</a></li>
+        <li><a href="Analytics.html">Analytics</a></li>
+        <li><a href="#notifications">Notifications</a></li>
+        <li><a href="#wellness">Wellness</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="task-manager">
+      <h2>Task Manager</h2>
+      <div>
+        <input type="text" id="task-input" placeholder="Enter a task" />
+        <button id="add-task">Add Task</button>
+      </div>
+      <ul id="task-list"></ul>
+    </section>
+
+    <section id="collaboration">
+      <h2>Collaboration</h2>
+      <textarea id="collab-box" placeholder="Type to collaborate..." rows="5"></textarea>
+    </section>
+
+    <section id="scheduling">
+      <h2>Scheduling</h2>
+      <label for="meeting-time">Set Meeting Time:</label>
+      <input type="datetime-local" id="meeting-time" />
+      <p id="meeting-output"></p>
+    </section>
+
+    <section id="analytics">
+      <h2>Analytics</h2>
+      <p id="analytics-data">Hours Worked: 5 | Tasks Completed: 8 | Breaks Taken: 2</p>
+    </section>
+
+    <section id="notifications">
+      <h2>Notifications</h2>
+      <button id="toggle-focus">Toggle Focus Mode</button>
+      <p id="focus-status">Focus mode is OFF.</p>
+    </section>
+
+    <section id="wellness">
+      <h2>Wellness</h2>
+      <p id="wellness-reminder">Stay hydrated and take breaks every hour!</p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
